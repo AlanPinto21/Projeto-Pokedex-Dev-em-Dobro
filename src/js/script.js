@@ -2,7 +2,7 @@ alert("Olá!");
 const alterarTema = document.getElementById("escurecer");
 
 const main = document.querySelector("main")
-console.log(body);
+
 
 const imagemTrocaDeIcone = document.querySelector(".imagem-botao");
 
