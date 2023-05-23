@@ -112,10 +112,12 @@ main .descricao{
 
 .veneno{
     background-color: purple;
+    color: white;
 }
 
 .inseto{
     background-color: green;
+    olor: white;
 }
 
 .voador{
