@@ -1,16 +1,23 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
     max-width: 1800px;
     margin: 0 auto;
-    background-color: #bebebead;
+    background-color: hsla(0, 0%, 75%, 0.678);
+    background-image: url(./../imagens/imagens/planofundodia.jpg);
+    background-size: cover;
+    background-attachment: fixed;
     color: #333333;
 }
-body .modo-escuro{
+
+body .modo-escuro {
     background-color: #212121;
+    background-image: url(./../imagens/imagens/planofundonoite2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
     color: #f5f5f5;
 }
 
-header{
+header {
     background-color: #dd3939;
     display: flex;
     justify-content: space-between;
@@ -19,85 +26,96 @@ header{
 }
 
 header .logo,
-header .imagem-botao{
+header .imagem-botao {
     width: 50px;
 }
 
-header #escurecer{
+header #escurecer {
     background: none;
     border: none;
 }
 
-header .logo:hover, /* HOVER serve para adicionar efeitos */
+header .logo:hover,
+/* HOVER serve para adicionar efeitos */
 header .imagem-botao:hover,
-main .cartao-pokemon:hover{
-    transform: scale(1.10); /* aumenta obejto */
-    cursor: pointer; /* determina o mouse quando passa em cima */
+main .cartao-pokemon:hover {
+    transform: scale(1.10);
+    /* aumenta obejto */
+    cursor: pointer;
+    /* determina o mouse quando passa em cima */
     transition: 0.2s ease-in-out;
 }
 
-main{
+main {
     padding: 25px;
 }
 
-main .listagem-pokemon{
+main .listagem-pokemon {
     display: flex;
     flex-wrap: wrap;
-    gap:30px;
+    gap: 30px;
     justify-content: center;
 }
 
-main .cartao-pokemon{
-    background-color: #f1f7f1; /* Cor do fundo */
-    width: 200px; /* tamanho */
-    padding: 15px; /* distancia entre o conteudo e a borda */
-    display: flex; /* movimentar objeto */
-    flex-direction: column; /* direção do alinhamento */
-    align-items: center; /* alinhamento de conteudo */
-    gap: 15px; /* espaçamento entre objetos*/
-    border-radius: 15px; /* arredondar borda */ 
+main .cartao-pokemon {
+    background-color: #f1f7f1;
+    /* Cor do fundo */
+    width: 200px;
+    /* tamanho */
+    padding: 15px;
+    /* distancia entre o conteudo e a borda */
+    display: flex;
+    /* movimentar objeto */
+    flex-direction: column;
+    /* direção do alinhamento */
+    align-items: center;
+    /* alinhamento de conteudo */
+    gap: 15px;
+    /* espaçamento entre objetos*/
+    border-radius: 15px;
+    /* arredondar borda */
     transition: 0.2s ease-in-out;
 }
 
-main .cartao-pokemon:hover{
+main .cartao-pokemon:hover {
     background-color: #96d9d6;
 }
 
-.modo-escuro .cartao-pokemon{
+.modo-escuro .cartao-pokemon {
     background-color: #a8a8a8;
 }
 
-main .cartao-pokemon .informacoes{
+main .cartao-pokemon .informacoes {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     /*^ alinhamento de objetos ^*/
     border: 1px solid #a8a8a8;
     border-radius: 10px;
 }
 
-main .cartao-pokemon .informacoes span{
+main .cartao-pokemon .informacoes span {
     padding: 5px;
     text-transform: uppercase;
     font-size: 17px;
-    
+
 }
 
-main .cartao-pokemon .gif{
+main .cartao-pokemon .gif {
     width: 70px;
     height: 70px;
 }
 
-main .cartao-pokemon .tipos{
+main .cartao-pokemon .tipos {
     display: flex;
     gap: 15px;
 }
 
-main .cartao-pokemon .tipo{
+main .cartao-pokemon .tipo {
     padding: 8px;
     border-radius: 10px;
 }
 
-main .descricao{
+main .descricao {
     max-height: 80px;
     overflow-y: scroll;
     font-size: 14px;
@@ -106,34 +124,53 @@ main .descricao{
 }
 
 /*----------------CORES DOS TIPOS DE POKEMONS*/
-.grama{
+.grama {
     background-color: lightgreen;
 }
 
-.veneno{
+.veneno {
     background-color: purple;
     color: white;
 }
 
-.inseto{
+.inseto {
     background-color: green;
-    olor: white;
+    color: white;
 }
 
-.voador{
+.voador {
     background: linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%);
     background-color: #3dc7ef;
-    color: #212121;;
+    color: #212121;
+    ;
 }
 
-.fogo{
+.fogo {
     background-color: orange;
 }
 
-.agua{
+.agua {
     background-color: aqua;
 }
 
 .normal {
     background-color: #a4acaf
+}
+
+footer {
+    height: 400px;
+    background-color: #1051;
+    background-image: url(./../imagens/imagens/planofundonoite1.jpg);
+    /* adicione a imagem de fundo...*/
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    padding: 50px;
+    color: #fff;
+}
+
+footer a {
+    color: gold;
 }
