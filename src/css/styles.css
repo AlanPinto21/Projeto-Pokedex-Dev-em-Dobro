@@ -3,7 +3,7 @@ body {
     max-width: 1800px;
     margin: 0 auto;
     background-color: hsla(0, 0%, 75%, 0.678);
-    background-image: url(./../imagens/imagens/planofundodia.jpg);
+    background-image: url(./../imagens/imagens/wallpaperday.jpg);
     background-size: cover;
     background-attachment: fixed;
     color: #333333;
@@ -11,7 +11,7 @@ body {
 
 body .modo-escuro {
     background-color: #212121;
-    background-image: url(./../imagens/imagens/planofundonoite2.jpg);
+    background-image: url(./../imagens/imagens/wallpapernight2.jpg);
     background-size: cover;
     background-attachment: fixed;
     color: #f5f5f5;
@@ -160,7 +160,7 @@ main .descricao {
 footer {
     height: 400px;
     background-color: #1051;
-    background-image: url(./../imagens/imagens/planofundonoite1.jpg);
+    background-image: url(./../imagens/imagens/wallpapernight1.jpg);
     /* adicione a imagem de fundo...*/
     background-size: cover;
     background-attachment: fixed;
