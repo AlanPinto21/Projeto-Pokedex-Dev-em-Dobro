@@ -18,7 +18,7 @@ body .modo-escuro {
 }
 
 header {
-    background-color: #dd3939;
+    background-color: transparent;
     display: flex;
     justify-content: space-between;
     /*flex-direction: row; é padrao*/
