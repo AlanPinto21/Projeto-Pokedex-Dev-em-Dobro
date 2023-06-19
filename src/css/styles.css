@@ -25,6 +25,14 @@ header {
     padding: 25px;
 }
 
+header .modo-escuro {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    /*flex-direction: row; é padrao*/
+    padding: 25px;
+}
+
 header .logo,
 header .imagem-botao {
     width: 50px;
